@@ -84,7 +84,6 @@ def execute_commands(spacecraft, command_array):
             spacecraft.turn_down()
 
 
-# Example usage
 initial_position = [0, 0, 0]
 initial_direction = 'N'
 commands = ['f', 'r', 'u', 'b', 'l']
