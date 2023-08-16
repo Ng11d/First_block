@@ -30,7 +30,7 @@ def move_backward(position, direction):
 
 def turn_left(direction):
     if direction == 'N':
-       direction = 'W'
+        direction = 'W'
     elif direction == 'S':
         direction = 'E'
     elif direction == 'E':
